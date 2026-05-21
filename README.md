@@ -31,6 +31,7 @@ O projeto está organizado em três camadas principais:
 - Views e regras de negócio (CHECK, UNIQUE, NOT NULL)
 
 ---
+## O QUE FALTA!!
 
 ## ⚙️ Back-end (Java - JDBC)
 
@@ -61,45 +62,7 @@ Interface gráfica do sistema.
 - Exclusão de registros
 - Validação básica de campos
 
----
 
-## 📊 Modelagem
-
-O sistema possui:
-
-- Modelo Conceitual (DER)
-- Modelo Lógico (Relacional)
-- Diagrama de Classes
-
----
-
-## 🔗 Relacionamentos do Sistema
-
-- 1:N entre Autor e Livro
-- 1:N entre Gênero e Livro
-- 1:N entre Usuário e Empréstimo
-- N:N entre Empréstimo e Livro (via tabela associativa)
-
----
-
-## 📁 Estrutura de Pastas (recomendado)    
-biblioteca/
-│
-├── db/
-│ └── schema.sql
-│
-├── docs/
-│ ├── der.png
-│ ├── modelo-logico.png
-│ └── diagrama-classes.png
-│
-├── src/
-│ └── (código Java - JDBC + Swing)
-│
-└── README.md
-
-
----
 
 ## 📦 Entregáveis
 
@@ -119,11 +82,4 @@ biblioteca/
 - [x] Relacionamentos com PK/FK
 - [x] Relacionamento N:N com tabela associativa
 - [x] Regras de negócio (CHECK, NOT NULL, UNIQUE)
-- [x] CRUD completo em Java (JDBC + Swing)
 
----
-
-## 👩‍💻 Disciplina
-
-Laboratório de Banco de Dados  
-Universidade Católica de Brasília
