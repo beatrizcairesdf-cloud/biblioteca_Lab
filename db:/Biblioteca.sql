@@ -1,5 +1,5 @@
-CREATE SCHEMA Biblioteca;
-USE Biblioteca;
+CREATE SCHEMA Biblioteca_lab;
+USE Biblioteca_lab;
 
 CREATE TABLE autores (
 id_autor INT AUTO_INCREMENT PRIMARY KEY,
@@ -62,3 +62,13 @@ FROM emprestimos e
 JOIN usuarios u ON e.id_usuario = u.id_usuario
 JOIN itens_emprestimo ie ON e.id_emprestimo = ie.id_emprestimo
 JOIN livros l ON ie.id_livro = l.id_livro;
+
+INSERT INTO autores(nome, nacionalidade)
+VALUES ('Machado de Assis', 'Brasileiro');
+
+INSERT INTO generos(nome)
+VALUES ('Romance');
+
+SELECT * FROM autores;
+
+SELECT * FROM generos;
